@@ -11,7 +11,7 @@ tempDelMesJulioMin2023cba = [3,12,10,13,9,8,10,9,9,9,11,5,2,-3,-2,1,3,3,4,3,9,9,
 ciudadesVisitadas = ["Salta","La Rioja","Capital Federal","Posadas","San Salvador","Carlos Paz"]
 
 eventosImportantes = [["29/04/1972","día en que nací"],["29/04/1973","cumplí mi primer año"],["29/04/1990","cumplí 18 años"],["13/12/1997","vi a queensryche"]]
-"""
+
 # 1. Ordenar alfabéticamente la lista de los nombres de familia.
 nombreFamilia.sort()
 print(nombreFamilia)
@@ -24,9 +24,9 @@ print(tempDelMesJulioMin2023cba)
 tempDelMesAgostomin2023cba = [11,11,5,3,7,5,4,2,-1,8,4,4,4,10,3]
 tempDelMesJulioMin2023cba.extend(tempDelMesAgostomin2023cba)
 print(tempDelMesJulioMin2023cba)
-"""
+
 # 4. Quitar de la lista de los nombres de familia, a tus abuelos.
-"""
+
 i = "si"
 while i == "si":
     i=str(input("desea borrar un nombre de la familia: "))
@@ -38,7 +38,7 @@ while i == "si":
         break
 print("los familiares restantes son: ")
 print(nombreFamilia)
-"""
+
 # Quitar de la lista de ciudades la ciudad menos linda que hayas visitado.
 
 c = "si"
@@ -54,4 +54,18 @@ print("las ciudades restantes son: ")
 print(ciudadesVisitadas)
 
 # 6. Mostrar todas las listas.
+
+print(nombreFamilia)
+
+print(tempDelMesJulioMin2023cba)
+
+print(tempDelMesJulioMin2023cba)
+
+print(nombreFamilia)
+
+print(ciudadesVisitadas)
+
+
+
+
 
