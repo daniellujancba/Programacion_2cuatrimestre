@@ -7,7 +7,7 @@ tupla_3 = ("Susana","Tarija 427","Carlos Paz","Cordoba",67,10887546)
 #Crear una lista que las contenga y mostrarla.
 listaDeTuplas = []
 
-# insertar todas las tuplas a la lista
+# camino 1: insertar todas las tuplas a la lista
 
 i = "si"
 while i== "si":
@@ -22,7 +22,7 @@ while i== "si":
 print(listaDeTuplas)
 
 
-# elegir las tuplas a insertar
+# camino 2: elegir las tuplas a insertar
 i = "si"
 while i == "si":
     i = str(input("desea ingresar a la lista una tupla?: "))
